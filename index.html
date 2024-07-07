@@ -18,14 +18,26 @@
 
 <body>
 
-    <h1 class="h2 text-center">All Countries</h1>
+    <div class="p-3 w-100 shadow sticky-top bg-white">
+        <div class="d-flex" role="search">
+            <input id="txtInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit" onclick="searchCountry()">Search</button>
+            <button id="cancelbtn" class="btn btn-outline-primary ms-3" onclick="fetchData()">Cancel</button>
+        </div>
+    </div>
+
+    <h1 class="h2 ps-5 p-3" id="mainTxt"></h1>
 
     <div class="container">
         <div id="country_grid" class="row flex">
 
         </div>
     </div>
-    
+
+    <div id="myModal" class="modal">
+
+    </div>
+
     <script src="app.js"></script>
 </body>
 
