@@ -1,10 +1,10 @@
 .countryCard {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border-radius: 5%;
 }
 
 .countryCard:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
